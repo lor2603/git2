@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Git</title>
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="style.css">
+	<title>GIT</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  	<script src="script.js"></script>
+  	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div></div>
+	<ul>
+		
+	</ul>
+
+	<form action="https://gs-class.herokuapp.com/add-comment.php" method="post">
+		<input type="email" placeholder="enter email">
+		<small id="emailEmpty">email is empty</small>
+		<small id="emailNotValid">email is not valid</small>
+		<br>
+		<textarea name="" id="" cols="30" rows="10" placeholder="enter text"></textarea>
+		<small id="comTooShort">coment is too short</small>
+		<br>
+		<button>Add coment</button>
+
+	</form>
+
 </body>
 </html>

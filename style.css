@@ -1,10 +1,16 @@
-div{
-	color:red;
-	height: 100px;
-	width: 100px;
+small{
+	color: red;
+	display: none;
 }
-div.green{
-	color:green;
-	height: 100px;
-	widows: 100px
+textarea.error, input.error{
+	border-color: red;
+	color: red;
+}
+ul{
+	list-style: none;
+	width: 500px;
+}
+li textarea{
+	width: 100%;
+	height: 70px;
 }
